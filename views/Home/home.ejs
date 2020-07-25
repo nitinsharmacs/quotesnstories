@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= title %></title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+</head>
+<body>
+	<div class='container'>
+		<a href='/logout'>Logout?</a>
+		<% if(role==='customer'){ %>
+		<button for='greenbtn'>Access Green Button</button>
+		<% } else { %>
+		<button for='greenbtn'>Access Green Button</button>
+		<button for='redbtn'>Access Red Button</button>
+		<% } %>
+	</div>
+</body>
+</html>

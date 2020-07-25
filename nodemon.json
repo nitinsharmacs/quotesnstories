@@ -1,0 +1,8 @@
+{
+	"env":{
+		"host": "localhost",
+		 "user": "root",
+		"password": "nitin123nitin",
+		"database": "internship"
+	}
+}
