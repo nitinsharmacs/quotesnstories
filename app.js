@@ -137,7 +137,7 @@ app.get('/logout', (req, res)=>{
 let port = process.env.PORT || 3001;
 
 app.listen(port, ()=>{
-	//console.log(db)
+	console.log(db)
 	console.log(`App is running on ${port}`);
 });
 

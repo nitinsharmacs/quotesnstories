@@ -1,8 +1,8 @@
 {
 	"env":{
-		"host": "localhost",
-		 "user": "root",
-		"password": "nitin123nitin",
-		"database": "internship"
+		"host": "db4free.net",
+		 "user": "nitinsharmacs",
+		"password": "nitin123@#",
+		"database": "feeberchat"
 	}
 }
